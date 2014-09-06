@@ -3,8 +3,27 @@ Crypt Component
 The `Crypt` component provides methods for generating random numbers and strings, also, password hashing and password
 hash verification and methods for encryption and decryption of strings.
 
-This library utilizes PHP-CryptLib library by Anthony Ferrara.
-https://github.com/ircmaxell/PHP-CryptLib
+Install the component
+---------------------
+The best way to install the component is using Composer.
+
+```json
+{
+    "require": {
+        "webiny/crypt": "dev-master"
+    }
+}
+```
+For additional versions of the package, visit the [Packagist page](https://packagist.org/packages/webiny/crypt).
+Optionally you can add `"minimum-stability": "dev"` flag to your composer.json.
+
+Once you have your `composer.json` file in place, just run the install command.
+
+    $ php composer.phar install
+
+To learn more about Composer, and how to use it, please visit [this link](https://getcomposer.org/doc/01-basic-usage.md).
+
+Alternatively, you can also do a `git checkout` of the repo.
 
 ## Generate random integers
 

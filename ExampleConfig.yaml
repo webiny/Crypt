@@ -21,6 +21,6 @@ Crypt:
     # just ommit this definition in your config file.
     Bridge: \Webiny\Component\Crypt\Bridge\CryptLib\CryptLib
     # Entries under ClassLoader are automatically registered
-    # with ClassLoader.
+    # with ClassLoader. You don't need this part if you are using Composer autoload.
     ClassLoader:
         CryptLib: /var/www/Vendors/PHP-CryptLib/lib/CryptLib
