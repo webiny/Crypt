@@ -18,9 +18,8 @@
 	"minimum-stability": "dev",
 	"repositories": [
 		{
-			"type": "git",
-			"url": "https://github.com/ircmaxell/PHP-CryptLib",
-			"branch": "master"
+			"type": "vcs",
+			"url": "https://github.com/ircmaxell/PHP-CryptLib"
 		}
 	],
 	"require": {
