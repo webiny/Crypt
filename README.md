@@ -5,10 +5,17 @@ hash verification and methods for encryption and decryption of strings.
 
 Install the component
 ---------------------
-The best way to install the component is using Composer.
+The best way to install the component is using Composer. This library requires that you also add a repository to your
+composer.json file.
 
 ```json
 {
+    "repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/ircmaxell/PHP-CryptLib"
+		}
+	],
     "require": {
         "webiny/crypt": "dev-master"
     }
