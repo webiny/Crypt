@@ -16,12 +16,18 @@
 		}
 	],
 	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/ircmaxell/PHP-CryptLib"
+		}
+	],
 	"require": {
 		"php": ">=5.4.0",
 		"webiny/class-loader": "dev-master",
 		"webiny/config": "dev-master",
 		"webiny/std-lib": "dev-master",
-		"cryptlib/cryptlib": "dev-master"
+		"CryptLib/CryptLib": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.1.*"
