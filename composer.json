@@ -27,7 +27,7 @@
 		"webiny/class-loader": "dev-master",
 		"webiny/config": "dev-master",
 		"webiny/std-lib": "dev-master",
-		"CryptLib/CryptLib": "*"
+		"CryptLib/CryptLib": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "4.1.*"
