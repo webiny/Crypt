@@ -20,5 +20,3 @@ Crypt:
     # If you don't wish to change the default driver,
     # just ommit this definition in your config file.
     Bridge: \Webiny\Component\Crypt\Bridge\CryptLib\CryptLib
-    ClassLoader:
-            CryptLib: /var/www/projects/webiny/Vendors/PHP-CryptLib/lib/CryptLib
