@@ -71,9 +71,10 @@ class Crypt
 
         if (!self::isInstanceOf($instance, '\Webiny\Component\Crypt\Bridge\CryptInterface')) {
             throw new Exception(Exception::MSG_INVALID_ARG, [
-                'driver',
-                '\Webiny\Component\Crypt\Bridge\CryptInterface'
-            ]);
+                    'driver',
+                    '\Webiny\Component\Crypt\Bridge\CryptInterface'
+                ]
+            );
         }
 
         return $instance;

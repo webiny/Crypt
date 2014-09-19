@@ -32,6 +32,7 @@ class Crypt
      * @param string $cipherMode       Cipher block.
      * @param string $cipherBlock      Cipher mode.
      * @param string $cipherInitVector Cipher initialization vector.
+     *
      * @throws CryptException
      */
     public function __construct($passwordAlgo = 'Blowfish', $cipherMode = 'CCM', $cipherBlock = 'rijndael-128',
@@ -45,10 +46,12 @@ class Crypt
 
                 if (!$this->isInstanceOf($this->_driverInstance, '\Webiny\Component\Crypt\Bridge\CryptInterface')) {
                     throw new CryptException('The provided bridge does not implement the required
-												interface "\Webiny\Component\Crypt\Bridge\CryptInterface"');
+												interface "\Webiny\Component\Crypt\Bridge\CryptInterface"'
+                    );
                 }
             } catch (\Exception $e) {
-                throw new CryptException('Unable to get the instance from \Webiny\Component\Crypt\Bridge\Crypt::getInstance()');
+                throw new CryptException('Unable to get the instance from \Webiny\Component\Crypt\Bridge\Crypt::getInstance()'
+                );
             }
         }
     }
